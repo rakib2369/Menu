@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+   body{
+   }
+.title{
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+h4{
+    color: #c38c2c;
+}
+h1{
+    margin-top: 5px;
+}
+.menu-item{
+    display: flex;
+    padding-bottom: 20px;
+    width: 500px;
+    justify-content: center;
+    border-bottom: 1px solid chocolate;
+    margin: auto;
+   
+}
+.burger,.pasta,.sandwich,.pizza{
+    display: flex;
+    padding: 7px;
+    font-size: 25px;
+    } 
+h6{
+    padding: 5px;
+    
+}
+.food-list{
+    display: flex;
+    
+    
+}
+.food-item-left img,.food-item-right img{
+    width: 40px;
+    
+}
+.food-item-left{
+    flex-direction: column;
+    margin-left: 250px;
+}
+.food-item-right{
+    margin-left: 50px;
+}
+.food-item{
+    margin-top: 60px;
+}
+.food-title{
+     margin-top: -50px;
+    margin-left:  50px;
+}
+.pricing{
+    display: flex;
+    border-bottom: 2px solid yellow;
+    align-items: center;
+}
+.pricing h2{
+     font-size: 20px;
+     padding-left: 20px;
+   
+}
